@@ -1,0 +1,47 @@
+body {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+.container {
+  width: 640px;
+  margin: 0 auto;
+}
+
+.news {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.news-list {
+  margin-right: 20px;
+}
+
+.new-item {
+  display: flex;
+  align-items: center;
+}
+
+.new-item:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.new-text {
+  margin-left: 20px;
+}
+
+.title {
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.footer {
+  background-color: olive;
+  color: #fff;
+  text-align: center;
+  padding: 48px 0;
+}
